@@ -70,7 +70,7 @@ def createTables():  # Define a function to create a user table if it doesn't al
     conn.close()
 ```
 3. **Add Data Using Api**:
-   - You can add user by using this
+   - Define a route for adding a new user via a POST request.
 ```python
     @app.route('/addUser', methods=['POST'])
 def add_user():
@@ -105,7 +105,7 @@ def add_user():
 
 
 4. **Read Data From DetaBase Using Api**:
-   - If you want to add data in your database then you have to follow this steps
+   - Define a route for fetching and displaying all users via a GET request.
 ```python
 
 
@@ -151,7 +151,7 @@ def show_users():
 ```
      
 5. **Update data in Detabase Using Api**:
-   - If you want to Update data in your database then you have to follow this steps 
+   - Define a route for updating user information via a PUT request.
 ```python
 
 
@@ -194,7 +194,7 @@ def update_user(user_id):
 ```
 
 6. **Delete Data From DetaBase Using Api**:
-   - If you want to add data in your database then you have to follow this steps
+   - Define a route for deleting a user via a DELETE request.
   ```python
 
 # Define a route for deleting a user via a DELETE request.
@@ -219,8 +219,8 @@ def delete_user(user_id):
         return jsonify({"error": str(e)}), 400
 
 ```
-7. **Run This Py File**:
-   - This will run your peoject
+7. **Run the Flask App**:
+   - Start the Flask application.
 ```python
 
   # Start the Flask application.
@@ -231,3 +231,32 @@ if __name__ == "__main__":
     app.run(debug=True)
 
 ```
+
+
+
+
+
+
+## Contributing
+
+Contributions are welcome! Here's how you can contribute to the project:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature`).
+3. Make changes and commit them (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature`).
+5. Create a new Pull Request.
+
+
+## Developer
+
+- **Name:** MOHD AAKIB
+- **GitHub:** https://github.com/GeniusApk
+
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohd-aakib-0546ab272/)
+
+[![linkedin](https://img.shields.io/badge/instagram-bc2a8d?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/_aakib__21/)
+
