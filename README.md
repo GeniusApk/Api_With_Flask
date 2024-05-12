@@ -1,5 +1,8 @@
 # Flask API Documentation
 
+![Untitled design (1)](https://github.com/GeniusApk/Api_With_Flask/assets/101592615/1ce0706f-b980-4524-a640-31046b7e671b)
+
+
 ## Introduction
 
 API stands for Application Programming Interface. In the context of web development, an API is a set of rules and protocols that allows different software applications to communicate with each other. APIs define how requests and responses should be formatted, allowing developers to build modular and interoperable systems.
@@ -27,7 +30,7 @@ To run this project locally, follow these steps:
 To use the API endpoints, send HTTP requests to the specified endpoints using tools like Postman or cURL. Below are the details of each endpoint along with their descriptions, methods, parameters, and examples.
 
 
-## How to Create Flask API with SQLite3
+# How to Create Flask API with SQLite3
 1. **Set Up Flask App**:
    - Import Flask and create an instance of the Flask app.
    - Define your API routes using `@app.route()` decorators.
@@ -237,6 +240,17 @@ if __name__ == "__main__":
 
 ```
 
+## Recommended VS Code Extensions
+
+To enhance your development experience with this Flask API project in Visual Studio Code, we recommend the following extensions:
+
+- **Thunder Client**: A lightweight REST client extension for VS Code, Thunder Client allows you to easily send HTTP requests and test your API endpoints directly within the editor.
+
+- **SQLite Viewer**: This extension provides a convenient way to view and interact with SQLite databases directly from within VS Code. You can explore tables, run SQL queries, and manage your database schema.
+
+- **Code Runner**: Code Runner allows you to run your Python scripts directly within VS Code with a single click. It supports various programming languages and provides a quick and easy way to execute code snippets or entire files.
+
+These extensions can streamline your development workflow and make it easier to build and test your Flask API project directly within Visual Studio Code.
 
 
 
