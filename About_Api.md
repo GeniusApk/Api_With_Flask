@@ -1,5 +1,8 @@
 # Understanding APIs
 
+![What-is-an-API-definition](https://github.com/GeniusApk/Api_With_Flask/assets/101592615/91f084b7-5d95-49aa-8958-b8c00231d951)
+
+
 ## Article Outline
 
 | **Section**               | **Description**                                          |
