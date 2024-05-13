@@ -10,6 +10,8 @@ API stands for Application Programming Interface. In the context of web developm
 In this Flask API project, we're using HTTP methods like GET, POST, PUT, and DELETE to interact with the server and perform CRUD (Create, Read, Update, Delete) operations on a SQLite3 database. Each endpoint in the API represents a specific action or resource, and clients can make requests to these endpoints to manipulate data.
 
 APIs are commonly used in web development to enable communication between different parts of a web application, as well as to integrate with third-party services and tools. They provide a standardized way for applications to exchange data and functionality, making it easier to build complex systems and integrate with external services.
+[Learn more about API Click here](https://github.com/GeniusApk/Api_With_Flask/blob/main/More_About_Api.md)
+
 
 ## Setup
 To run this project locally, follow these steps:
