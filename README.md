@@ -21,7 +21,7 @@ To run this project locally, follow these steps:
 3. Navigate to the project directory in your terminal.
 4. Run the following command to install dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip install flask
    ```
 5. Run the following command to create the necessary database tables:
    ```bash
